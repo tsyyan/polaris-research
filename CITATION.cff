@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use Polaris Research, please cite this software."
+title: "Polaris Research"
+type: software
+authors:
+  - name: "Polaris Research"
+version: 1.0.0
+date-released: 2026-07-26
+repository-code: "https://github.com/tsyyan/polaris-research"
+url: "https://github.com/tsyyan/polaris-research"
+license: Apache-2.0

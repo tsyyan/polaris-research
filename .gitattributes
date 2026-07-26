@@ -1,0 +1,7 @@
+# Integrity fingerprints cover raw working-tree bytes. Keep experiment evidence
+# byte-identical across platforms, including Windows checkouts with autocrlf.
+experiments/records/** text eol=lf
+memory/integrity/** text eol=lf
+docs/architecture/** text eol=lf
+experiments/manifest.json text eol=lf
+experiments/output/** -text

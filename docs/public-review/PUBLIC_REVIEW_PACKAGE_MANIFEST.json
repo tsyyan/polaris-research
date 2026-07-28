@@ -1,0 +1,135 @@
+{
+  "schema_version": "polaris-public-review-package-manifest-v2",
+  "package_version": "1.0.0",
+  "generated_at": "2026-07-28T12:46:40.552595+00:00",
+  "source_identities": {
+    "private_research_source_commit": "19826902890e4b01567cdbacbb2300cd9b93609a",
+    "package_generation_commit": "19826902890e4b01567cdbacbb2300cd9b93609a",
+    "export_builder_commit": "19826902890e4b01567cdbacbb2300cd9b93609a",
+    "public_export_commit": null
+  },
+  "commit_path_validation": "PASS",
+  "publication_state": {
+    "scope": "bounded-public-review-package-v1",
+    "state": "READY_FOR_EXPORT",
+    "record_sha256": "2886a695206eb04cf6ec7133ebf663671a15c17d0844bb2eb3bea97d13bdabb4",
+    "publication_authorized": true
+  },
+  "registry_identities": {
+    "publication_state": "2886a695206eb04cf6ec7133ebf663671a15c17d0844bb2eb3bea97d13bdabb4",
+    "dependency_inventory": "50417e162af10528f2117a1991c5d396909649fba6fc62692f41434f1cc1a7a7",
+    "disclosure_classifications": "0d801eeaec7e79db3616dde79b0f091792c72eae2f31989050ce9a9d67c13071",
+    "export_allowlist": "eec630af384bc4eb4dc38c402bcd882d63f3363491573a9c3a4e57b7a68ec5ec",
+    "external_resource_approvals": "25e5a7fb191e58b705eb4b7da3586f18fb2998617821e6b5fe97bf1b0da30fd0",
+    "content_origins": "042079b02b17246864bbcec30ba5bb688fc185b755295693bceecda5c5c1ba62",
+    "private_artifact_source_registry": "64faa94bef0b49ddff1b6614409980d42d7168165c06fca2d94843b5ef7dcc4d",
+    "projection_bindings": "ef98c4458fe9a32c63498385c2d6c896b0341b5de3105a1f75c6a9045c252835",
+    "policy_acceptance": "bcf54b92fa0d72172fc24fd47bf215131c0ecbd033e53b751b802dcb357875a1"
+  },
+  "public_export_builder": {
+    "path": "scripts/build_public_review_package.py",
+    "sha256": "bc7e654566afdf5f24372bc8cfee5942c86a3bb895b68eef0179e7cc53201361"
+  },
+  "claims_boundary_version": "public-review-claims-v1",
+  "candidate_tree_sha256": "6d03a2c8f1bee909ff2c8461dbc4269fad79b27744af453a8ec898804ae77179",
+  "publication_authorized": true,
+  "files": [
+    {
+      "path": "LICENSE",
+      "byte_length": 11380,
+      "sha256": "13c2b68d0b4ac2a4a1a848eddfbd1fad67b257351cfc2b1f4856c42b953cd7af",
+      "disclosure_state": "PUBLIC_FULL"
+    },
+    {
+      "path": "README.md",
+      "byte_length": 818,
+      "sha256": "7f1ba51c063243883dd7ca95188dbf3c2cd217e651a3a8c987ca80f8c0ec10ff",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "TRADEMARK.md",
+      "byte_length": 570,
+      "sha256": "9d6300e3c4c6e9f1975da19460117ff437fa5c7e6c23f54836ac689dfee26442",
+      "disclosure_state": "PUBLIC_FULL"
+    },
+    {
+      "path": "docs/DOCUMENTATION_LICENSE.md",
+      "byte_length": 1052,
+      "sha256": "1750a035519630d4e9c2e40ce728b139e5b03ab2660ef495a0ec2f6f7765715f",
+      "disclosure_state": "PUBLIC_FULL"
+    },
+    {
+      "path": "docs/architecture/ADR-038-milestone-2-closure.md",
+      "byte_length": 3715,
+      "sha256": "b47eb1d3007a8971b55770f7842608b79d6d5bba1238fcf82f46299b508def17",
+      "disclosure_state": "PUBLIC_FULL"
+    },
+    {
+      "path": "docs/public-review/CLAIMS_BOUNDARY.md",
+      "byte_length": 1766,
+      "sha256": "67e33344862f1ff5b1390ce4fcb0026c91789c74f065ff5342f02c00813beb72",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/PILOT_006_PUBLIC_RECORD.md",
+      "byte_length": 1631,
+      "sha256": "fdeb1e6bceaa8575ee1e1e0ff9d0902e9aeeb2be3083f661c97e02a08ab53c7b",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/PRIVATE_ARTIFACT_INDEX.json",
+      "byte_length": 8976,
+      "sha256": "927d46f1fe947714eb8ec68058200e5d9da1cfc5f1309192d6f802b27966e523",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/PRIVATE_ARTIFACT_VERIFICATION.json",
+      "byte_length": 3571,
+      "sha256": "f9d5d8948e4742f8033a1117233834c2ed5af4aa83c0eab79b6882c75b6c5c63",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/PUBLIC_REVIEW_PACKAGE_MANIFEST.json",
+      "byte_length": 5706,
+      "sha256": "44099d2409a53583a7851619edc26657a1f713f9c325febb257e79a3f546034c",
+      "hash_basis": "SHA-256 of manifest bytes with this sha256 field replaced by 64 zeroes",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/README.md",
+      "byte_length": 1919,
+      "sha256": "7f398112abbe356e4f2b843aa04f9768a9e35ab1acf603a087f1c814cd7152d3",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/REVIEW_RESPONSE_TEMPLATE.md",
+      "byte_length": 743,
+      "sha256": "7032d806515f48a9bd7d515f5f6c7b163838f5add4ceafd32bc9263ddffc54c3",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/evaluation.md",
+      "byte_length": 1726,
+      "sha256": "abafb85ac2c6e862b573a5329648d7e528ba72cdaf69e00144d4c6de70e681dd",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/incident-method.md",
+      "byte_length": 1722,
+      "sha256": "61bd57a63d24b3f20de140dcb728c5ee9fc4f21428fe0a0467cf002f1b1e6772",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/provenance.md",
+      "byte_length": 1920,
+      "sha256": "6fffef041d3bdd0778973a48bfedcfbf2595fda1cbc8dcc2cd0d90db929ad072",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    },
+    {
+      "path": "docs/public-review/reproducibility.md",
+      "byte_length": 1788,
+      "sha256": "40a94e7afb740b369c13b881ac61c31a764faa17b5d5e8459dccc0bcd8eade43",
+      "disclosure_state": "PUBLIC_REVIEW_PROJECTION"
+    }
+  ]
+}

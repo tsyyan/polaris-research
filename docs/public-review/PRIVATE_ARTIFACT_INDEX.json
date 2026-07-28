@@ -1,0 +1,182 @@
+{
+  "schema_version": "polaris-private-artifact-index-v1",
+  "controlled_access_available": false,
+  "artifacts": [
+    {
+      "artifact_id": "FULL-SUITE-VALIDATION-NOTE",
+      "artifact_class": "validation_note",
+      "canonical_role": "Private repository validation summary supporting the reported verification context",
+      "byte_length": 1834,
+      "sha256": "a8a2fee634d5d98c610dcf7503efdd39c9db92bb3d5c8507ef5399849520dcb1",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private validation material excluded by current policy",
+      "related_public_projection": "CLAIMS_BOUNDARY.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "M2-FINAL-CLOSURE-AUDIT",
+      "artifact_class": "closure_audit",
+      "canonical_role": "Private final closure audit supporting the bounded Milestone 2 status",
+      "byte_length": 4541,
+      "sha256": "d22360724176a9a2f69943f9eddddc63bcd1c30e02e6892b3f29d97e5b1aaadb",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private audit material excluded by current policy",
+      "related_public_projection": "CLAIMS_BOUNDARY.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-READINESS-CERTIFICATE",
+      "artifact_class": "execution_readiness_certificate",
+      "canonical_role": "Private gate record for Pilot-006 execution readiness",
+      "byte_length": 1283,
+      "sha256": "703c2dfa108ddd957af5489e3ba52a37d7b63183ca0ed556ddce51a3c9d604a6",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private execution-readiness evidence excluded by current policy",
+      "related_public_projection": "evaluation.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-FREEZE-AUTHORIZATION",
+      "artifact_class": "human_freeze_authorization",
+      "canonical_role": "Private authorization record for the sealed Pilot-006 execution",
+      "byte_length": 1206,
+      "sha256": "f0234c0767a867eadc122a7c1a88f4373badbbedac7763f4ec2c456e0cbedf17",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private authorization evidence excluded by current policy",
+      "related_public_projection": "evaluation.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-INDEPENDENT-ARCHITECTURE-REVIEW",
+      "artifact_class": "independent_architecture_review",
+      "canonical_role": "Private architecture review disposition preceding Pilot-006 execution",
+      "byte_length": 1428,
+      "sha256": "f172f33e68d279834518c09881fb5b7516ea0196ab0e132f369164b3c173f69c",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private review record excluded by current policy",
+      "related_public_projection": "evaluation.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-INDEPENDENT-CORPUS-REVIEW",
+      "artifact_class": "independent_corpus_review",
+      "canonical_role": "Private corpus review disposition preceding Pilot-006 execution",
+      "byte_length": 1170,
+      "sha256": "b17bbcbb5992e6e611be48c0ba7fbfc167d9c4ae52fbe7b2cff8a5f20f57268c",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private review record with third-party-content context excluded by current policy",
+      "related_public_projection": "incident-method.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-CLOSURE-RECORD",
+      "artifact_class": "closure_record",
+      "canonical_role": "Final bounded administrative and mechanical disposition",
+      "byte_length": 647,
+      "sha256": "d45f15692af9fca3d3e819b252ce5e5263a1e0ca8b90cd51eeb3758fa44c3bf1",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private research execution record excluded by current policy",
+      "related_public_projection": "PILOT_006_PUBLIC_RECORD.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-EXECUTION-REPORT",
+      "artifact_class": "execution_report",
+      "canonical_role": "Narrative execution account and phase results",
+      "byte_length": 2562,
+      "sha256": "5722d1dfab58c9c74fab5e5907546c4237ff89ba7c5e6f90cf59c95d1ef9d74a",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private research execution record excluded by current policy",
+      "related_public_projection": "PILOT_006_PUBLIC_RECORD.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-EXECUTION-EVIDENCE",
+      "artifact_class": "execution_evidence_manifest",
+      "canonical_role": "Content identities for canonical execution evidence",
+      "byte_length": 100,
+      "sha256": "3d649642abe1bbbdd655962848984720003484496a185a1fca8abd15b9f29311",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Execution evidence excluded by current policy",
+      "related_public_projection": "PILOT_006_PUBLIC_RECORD.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-REPRODUCTION-UNIT",
+      "artifact_class": "reproduction_unit_identity",
+      "canonical_role": "Identity of the sealed reproduction unit",
+      "byte_length": 99,
+      "sha256": "555833877e5fb7f33080e5bebe9c30ebc867b3081f254ce983870eae0be8b76f",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Sealed research artifact excluded by current policy",
+      "related_public_projection": "reproducibility.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-SEALED-MANIFEST",
+      "artifact_class": "sealed_manifest",
+      "canonical_role": "Membership and identity boundary for the sealed package",
+      "byte_length": 6920,
+      "sha256": "9c0befe64c4509149e8cc1f6cdd4ead7b11825e5b53bded83de9217f6a57b20a",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Sealed research artifact excluded by current policy",
+      "related_public_projection": "provenance.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-EXPERIMENT-RECORD",
+      "artifact_class": "experiment_record",
+      "canonical_role": "Atomic hypothesis, method, and declared acceptance boundary",
+      "byte_length": 1509,
+      "sha256": "13f442a81b9ccea185a6ae81a559f85ae54cd45b1455863044b79cc92b2b73f1",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Experiment records excluded by current policy",
+      "related_public_projection": "CLAIMS_BOUNDARY.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-EXPERIMENT-OUTCOME",
+      "artifact_class": "experiment_outcome",
+      "canonical_role": "Recorded immutable experiment outcome",
+      "byte_length": 377,
+      "sha256": "6fd5aa9c7246f278b94bd7b7b03b86155343185b372b69f3d508ef569bf73f47",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Experiment records excluded by current policy",
+      "related_public_projection": "CLAIMS_BOUNDARY.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-PROCESSING-REGISTRY",
+      "artifact_class": "processing_registry",
+      "canonical_role": "Declared processing identities and routing",
+      "byte_length": 1213,
+      "sha256": "4c91a8e7214eb88529a7157000af6d3d410499e18bdf5e6a31965f6ecec423ac",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private implementation material excluded by current policy",
+      "related_public_projection": "reproducibility.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-IMPLEMENTATION-MANIFEST",
+      "artifact_class": "implementation_manifest",
+      "canonical_role": "Identity of the declared processing implementation",
+      "byte_length": 502,
+      "sha256": "a3a9030cb6fafc8aa74f3ce5579c90ffc25e600ae40b070dd3c916c83c33c128",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private implementation material excluded by current policy",
+      "related_public_projection": "reproducibility.md",
+      "controlled_access_available": false
+    },
+    {
+      "artifact_id": "P006-CONFIGURATION",
+      "artifact_class": "processing_configuration",
+      "canonical_role": "Identity of the declared processing configuration",
+      "byte_length": 267,
+      "sha256": "d7c2bfe5f2b1c9aa33e1a939824617f6a09f4bdfa73a290cbc7965f67774acb8",
+      "disclosure_state": "CONTENT_IDENTIFIED_NOT_DISCLOSED",
+      "disclosure_reason": "Private implementation material excluded by current policy",
+      "related_public_projection": "reproducibility.md",
+      "controlled_access_available": false
+    }
+  ]
+}

@@ -1,8 +1,8 @@
-# NOESIS / Polaris — Public Research Snapshot 2026.09
+# NOESIS / Polaris Research v1.1 — Autonomous-Agent Research Snapshot
 
-Tag: `v0.1.0-research-snapshot`
+Tag: `v1.1.0`
 
-This is the first reviewer-grade public research snapshot of the current NOESIS/Polaris program.
+This release succeeds the July 2026 `v1.0.0` public research release. The earlier release focused on evidence-conservative AI incident reconstruction; those materials remain available as historical research artifacts. Version 1.1 presents the current NOESIS/Polaris research track on bounded autonomous AI development agents while preserving that research history rather than rewriting it.
 
 ## Completed bounded results included
 
@@ -24,7 +24,7 @@ No Claude experiment result is included or implied by this release.
 
 ## Inspectable technical reference
 
-The `reference/` directory contains reviewed scientific-core artifacts copied from the private engineering repository:
+The `reference/` directory contains reviewed scientific-core artifacts copied exactly from the private engineering repository and accompanied by a Git-blob provenance manifest:
 
 - deterministic episode closure implementation;
 - deterministic experience-record extraction implementation;
@@ -41,4 +41,4 @@ This release deliberately omits credentials, operational node/network configurat
 
 This release does not establish general autonomous-agent safety, alignment, perfect sandbox isolation, universal model portability, arbitrary natural-language task correctness, dataset representativeness, learning effectiveness, or external infrastructure reliability.
 
-For the current status classification, see `RESEARCH_STATUS.md`; for maximum bounded claims, see `RESULTS.md`; for the research architecture, see `TECHNICAL_ARCHITECTURE.md`.
+For the current status classification, see `RESEARCH_STATUS.md`; for maximum bounded claims, see `RESULTS.md`; for the research architecture, see `TECHNICAL_ARCHITECTURE.md`; for exact-source transfer integrity, see `reference/SOURCE_PROVENANCE.md`.

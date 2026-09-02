@@ -1,11 +1,26 @@
 cff-version: 1.2.0
-message: "If you use Polaris Research, please cite this software."
-title: "Polaris Research"
+message: "If you use NOESIS / Polaris Research, please cite this public research snapshot."
+title: "NOESIS / Polaris Research"
 type: software
 authors:
-  - name: "Polaris Research"
-version: 1.0.0
-date-released: 2026-07-26
+  - family-names: "Tsyganok"
+    given-names: "Andrey"
+version: 0.1.0
+date-released: 2026-09-03
 repository-code: "https://github.com/tsyyan/polaris-research"
 url: "https://github.com/tsyyan/polaris-research"
 license: Apache-2.0
+abstract: >-
+  Public research snapshot of NOESIS / Polaris, an independent research program
+  in computational epistemology studying reproducible evidence, bounded AI-agent
+  authority, provenance-preserving evaluation, deterministic reconstruction, and
+  cross-model independence.
+keywords:
+  - computational epistemology
+  - AI safety
+  - AI agents
+  - AI control
+  - AI evaluation
+  - provenance
+  - reproducibility
+  - cross-model evaluation

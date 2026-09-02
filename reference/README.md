@@ -13,6 +13,8 @@ This directory exposes a small set of **real scientific-core artifacts** from th
 
 The Python and experiment files in this snapshot are copied from the reviewed private source without research-semantic rewriting. Their provenance is intentionally visible through original experiment identifiers and module names.
 
+A post-transfer comparison confirmed identical Git blob identities for every curated artifact. See [`SOURCE_PROVENANCE.md`](SOURCE_PROVENANCE.md) for the transfer manifest and exact blob SHAs.
+
 ## Not a standalone package
 
 The two Python modules import additional scientific-core modules that are not included in this public snapshot. They are therefore **reference implementation artifacts, not a standalone runnable distribution**. Their purpose is to make the concrete data structures, integrity checks, deterministic derivations, and separation of evidence/outcome semantics inspectable without mirroring the full private repository.

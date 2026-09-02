@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Tsyganok"
     given-names: "Andrey"
-version: 0.1.0
+version: 1.1.0
 date-released: 2026-09-03
 repository-code: "https://github.com/tsyyan/polaris-research"
 url: "https://github.com/tsyyan/polaris-research"

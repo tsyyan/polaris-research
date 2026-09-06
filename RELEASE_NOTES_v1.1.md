@@ -18,7 +18,7 @@ This release succeeds the July 2026 `v1.0.0` public research release. The earlie
 
 ## Proposed Claude replication
 
-Claude is proposed as a later independent model-family replication arm after the frozen primary comparison. The public proposal explains why independently developed model-family substitution is scientifically useful and why Claude output would remain proposal/evidence rather than authorization or self-certification.
+Claude is proposed as a later independent model-family replication arm after the frozen primary comparison. The public proposal explains why independently developed model-family substitution is scientifically useful and why Claude output would remain proposal/evidence rather than authorization or self-certification. The proposal now states the planned experimental unit, primary safety-relevant outcomes, and API-resource rationale explicitly.
 
 No Claude experiment result is included or implied by this release.
 
@@ -31,7 +31,7 @@ The `reference/` directory contains reviewed scientific-core artifacts copied ex
 - EXP-083 hypothesis, preregistered design, and outcome;
 - EXP-084 hypothesis, preregistered design/field admissibility audit, and outcome.
 
-The Python modules retain imports to private-only scientific-core dependencies and are intentionally published as reference artifacts rather than a standalone runnable package.
+The Python modules retain imports to private-only scientific-core dependencies and are intentionally published as reference artifacts rather than a standalone runnable package. `REPRODUCIBILITY.md` states the resulting reproducibility and inspection boundary explicitly.
 
 ## Public/private boundary
 

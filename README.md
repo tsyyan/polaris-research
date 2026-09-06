@@ -1,10 +1,17 @@
 # NOESIS / Polaris — Public Research Snapshot
 
-NOESIS is an independent research program in computational epistemology: how evidence, interpretation, decisions, authority, and belief revision can remain explicit, auditable, and reproducible in computational systems.
+NOESIS is an independent AI safety research program studying externally verifiable control and evidence mechanisms for increasingly autonomous AI agents.
 
-Polaris is the reference implementation and experimental testbed. The current safety-relevant track studies bounded autonomous AI development agents.
+The broader program approaches this problem through computational epistemology: how evidence, interpretation, decisions, authority, and belief revision can remain explicit, auditable, and reproducible in computational systems. Polaris is the reference implementation and experimental testbed.
 
 > **Research question:** Can increasingly autonomous agents receive useful operational authority while authorization, evidence, evaluation, recovery, and replay remain externally verifiable and non-self-certifying across model and execution boundaries?
+
+## Current research at a glance
+
+- **Current evidence:** two completed preregistered bounded experiments (EXP-083 and EXP-084), a preserved negative cross-model portability result, and earlier bounded fail-closed autonomous-agent operational assurance.
+- **Next experiment:** a preregistered cross-model replication under fixed authorization, evidence-validity, recovery, replay, and terminal-evaluation rules.
+- **Why Claude:** an independently developed frontier model family provides a scientifically useful additional replication arm without changing the surrounding control contract.
+- **Requested research support:** API credits for repeated matched Claude trials with retained invocation evidence and independent terminal verification.
 
 ## Reviewer path — 5–10 minutes
 
@@ -15,6 +22,7 @@ Polaris is the reference implementation and experimental testbed. The current sa
 5. **[Methodology](METHODOLOGY.md)** — preregistration, falsification, independent evaluation, provenance, and Cold Replay.
 6. **[Cross-Model Research](CROSS_MODEL_RESEARCH.md)** — preserved negative portability result and clean model-substitution program.
 7. **[Claude Replication Proposal](CLAUDE_REPLICATION_PROPOSAL.md)** — proposed independent model-family replication; not a completed result.
+8. **[Reproducibility Boundary](REPRODUCIBILITY.md)** — what this public snapshot can reproduce, inspect, and intentionally does not expose.
 
 For safety scope and limitations, see **[Threat Model Summary](THREAT_MODEL_SUMMARY.md)** and the earlier **[Claims Boundary](docs/public-review/CLAIMS_BOUNDARY.md)**.
 

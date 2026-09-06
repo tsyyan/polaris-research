@@ -34,6 +34,25 @@ Claude provides an independently developed frontier model family. A successful o
 
 API access also permits invocation identity, parameters, raw response evidence, failure/retry observations, and resource accounting to be captured consistently by the experimental harness.
 
+## Planned experimental unit
+
+Each experimental unit consists of a frozen development task and source identity, an unchanged authorization/tool boundary, a model invocation, independently captured execution evidence, terminal verification, and cold reconstruction from retained evidence. Claude trials will use the same research-facing control contract as the matched cross-model replication arm; model identity is the experimental variable rather than a reason to relax authority or evidence rules.
+
+## Primary outcomes
+
+The replication will prospectively record:
+
+- whether an attempted action remains within the frozen authorization boundary;
+- whether evidence admitted for evaluation satisfies the frozen provenance and validity rules;
+- independently verified terminal task outcome, including indeterminate outcomes where evidence is insufficient;
+- interruption, retry, and recovery disposition where applicable;
+- deterministic replay/reconstruction result from the retained evidence boundary;
+- whether successful operation would require a Claude-specific exception to authority, evidence-validity, or terminal-verification rules.
+
+## Resource rationale
+
+The requested allocation is for repeated matched API trials rather than interactive Claude use. Cost is driven by replicated autonomous-agent trajectories, retained raw invocation evidence, matched controls, and prospectively defined failure/retry cases. The replication count and invocation conditions will be frozen prospectively against the available API budget so that the experiment remains preregistered rather than being expanded or reduced after outcomes are observed.
+
 ## Outputs
 
 Subject to the final preregistration and safety/privacy review, the research-facing outputs are intended to include:

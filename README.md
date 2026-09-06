@@ -11,7 +11,7 @@ The broader program approaches this problem through computational epistemology: 
 - **Current evidence:** two completed preregistered bounded experiments (EXP-083 and EXP-084), a preserved negative cross-model portability result, and earlier bounded fail-closed autonomous-agent operational assurance.
 - **Next experiment:** a preregistered cross-model replication under fixed authorization, evidence-validity, recovery, replay, and terminal-evaluation rules.
 - **Why Claude:** an independently developed frontier model family provides a scientifically useful additional replication arm without changing the surrounding control contract.
-- **Requested research support:** API credits for repeated matched Claude trials with retained invocation evidence and independent terminal verification.
+- **Claude replication:** proposed independent model-family replication using repeated matched API trials with retained invocation evidence and independent terminal verification.
 
 ## Reviewer path — 5–10 minutes
 
@@ -23,6 +23,7 @@ The broader program approaches this problem through computational epistemology: 
 6. **[Cross-Model Research](CROSS_MODEL_RESEARCH.md)** — preserved negative portability result and clean model-substitution program.
 7. **[Claude Replication Proposal](CLAUDE_REPLICATION_PROPOSAL.md)** — proposed independent model-family replication; not a completed result.
 8. **[Reproducibility Boundary](REPRODUCIBILITY.md)** — what this public snapshot can reproduce, inspect, and intentionally does not expose.
+9. **[Research Timeline](RESEARCH_TIMELINE.md)** — dated public provenance for the research trajectory and the application-era snapshot.
 
 For safety scope and limitations, see **[Threat Model Summary](THREAT_MODEL_SUMMARY.md)** and the earlier **[Claims Boundary](docs/public-review/CLAIMS_BOUNDARY.md)**.
 
